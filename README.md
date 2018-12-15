@@ -4,8 +4,8 @@ platforms: dotnet
 author: viviswan
 ---
 
-# Using Mongo ReadPreference with Azure Cosmos DB's MongoDB API
-Azure Cosmos DB is a globally distributed multi-model database. One of the supported APIs is the MongoDB API, which provides a document model and support for client drivers in many platforms. This sample shows you how to use MongoDB ReadPreference against Azure Cosmos DB with MongoDB API from a .NET application.
+# Using ReadPreference command with Azure Cosmos DB for MongoDB API
+Azure Cosmos DB is a fully managed globally distributed, multi-model database service, transparently replicating your data across any number of Azure regions. You can elastically scale throughput and storage, and take advantage of fast, single-digit-millisecond data access using the API of your choice backed by 99.999 SLA. This sample shows you how to use ReadPreference command against Azure Cosmos DB for MongoDB API from a .NET application.
 
 ## Running this sample
 
@@ -23,11 +23,10 @@ Azure Cosmos DB is a globally distributed multi-model database. One of the suppo
 * Click *CTRL + F5* to run your application.
 
 ## About the code
-The code included in this sample is intended to get you quickly started with a .NET application that connects to Azure Cosmos DB with the MongoDB API.
+The code included in this sample is intended to get you quickly started with a .NET application that connects to Azure Cosmos DB for MongoDB API account.
 
 ## More information
 
 - [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction)
-- [Azure Cosmos DB : MongoDB API](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction)
+- [Azure Cosmos DB for MongoDB API](https://docs.microsoft.com/azure/cosmos-db/mongodb-introduction)
 - [MongoDB .NET driver](https://docs.mongodb.com/ecosystem/drivers/csharp/)
-- [MongoDB .NET driver documentation](https://mongodb.github.io/mongo-csharp-driver/2.4/)

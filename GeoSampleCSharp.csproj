@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D664DB1B-79D0-41CE-9880-322A2C29B1BB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CosmosDBMongoAPIGeoSampleCSharp</RootNamespace>
-    <AssemblyName>CosmosDBMongoAPIGeoSampleCSharp</AssemblyName>
+    <RootNamespace>GeoSampleCSharp</RootNamespace>
+    <AssemblyName>GeoSampleCSharp</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
